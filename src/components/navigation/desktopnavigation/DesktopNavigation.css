@@ -1,0 +1,9 @@
+.desktopNavigatonWrapper {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    background-color: seagreen;
+}
+
+.navigationLogotype {
+    width: 90px;
+}
