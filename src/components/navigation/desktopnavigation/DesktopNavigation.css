@@ -1,4 +1,4 @@
-.desktopNavigatonWrapper {
+.desktopNavigationWrapper {
     display: grid;
     grid-template-columns: repeat(20, 1fr);
     background-color: seagreen;
