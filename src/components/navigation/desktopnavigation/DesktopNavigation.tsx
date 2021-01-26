@@ -11,10 +11,10 @@ export const DesktopNavigation = () => {
     const [authUser, setAuthUser] = useContext(UserContext)
 
     const displaySignInButton = () => {
-        return authUser
-            ? <Profile />
-            : <span onClick={() => history.push(RoutingPath.signInView)}>Sign in</span>
-    }
+        return authUser?.username
+        ? <div className='profile'><Profile /></div>
+        : <span className='signInButton' onClick={() => history.push(RoutingPath.signInView)}>Signin</span>
+}
 
     return (
         <div className='desktopNavigationWrapper'>

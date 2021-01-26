@@ -3,9 +3,17 @@ import { HomeView } from '../view/HomeView'
 import { AboutView } from '../view/AboutView'
 import RoutingPath from './RoutingPath'
 import { SignInView } from '../view/SignInView'
+import { UserContext } from '../shared/provider/UserProvider'
+import { useEffect, useContext } from 'react' 
 
 export const Routes = (props: { children: React.ReactChild }) => {
+    const [authUser, setAuthUser] = useContext(UserContext)
     const { children } = props
+
+    useEffect(() => {
+        if (localStorage.getItem('user')){setAuthUser({username: localStorage.getItem('user') })}
+
+    },[])    
 
     return (
         <BrowserRouter>
