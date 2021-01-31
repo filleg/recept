@@ -1,10 +1,16 @@
 const homeView = '/'
-const aboutView ='/about'
-const signInView ='/signin'
+const signInView = '/signin'
+const brandsView = '/brands' 
+const contactView = '/contact'
+const newsView = '/news'
+const shopView = '/shop'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
     homeView,
-    aboutView,
-    signInView
+    signInView,
+    brandsView,
+    contactView,
+    newsView,
+    shopView
 }

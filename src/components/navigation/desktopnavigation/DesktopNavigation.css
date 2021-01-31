@@ -1,13 +1,24 @@
 .desktopNavigationWrapper {
 	display: grid;
-	grid-template-columns: repeat(10, 1fr);
+	grid-template-columns: repeat(20, 1fr);
 	background-color: #b5d5d1;
 }
 
 .navigationLogotype {
 	width: 90px;
+	grid-column: 3/4;
 }
 
 .signInButton, .profile {
-    grid-column: 10/10; 
+	grid-column: 15/16; 
+	cursor: pointer;
+    color: white;
+    font-weight: 1000;
+    font-family: 'Roboto', sans-serif;
+    padding: 6%;
+}
+
+.desktopNavigationTabs {
+	grid-column: 7/9;
+	align-items: center;
 }
