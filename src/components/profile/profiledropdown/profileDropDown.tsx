@@ -15,9 +15,10 @@ export const ProfileDropDown = () => {
         history.push(RoutingPath.signInView)
     }
 
+
     return (
         <div className='profileDropdown'>
-            <span> alt 1 </span>
+            <span onClick={() => history.push(RoutingPath.settingsView) }> Settings </span>
             <span> alt 2 </span>
             <span onClick={() => logout()}> Sign out </span>
     </div>

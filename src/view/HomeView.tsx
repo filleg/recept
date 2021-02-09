@@ -9,7 +9,7 @@ export const HomeView = () => {
 */
     return (
         <div>
-            <h1>{number}</h1>
+            <h1>homeview</h1>
         </div>
     )
 }
