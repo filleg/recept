@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/recept/static/css/main.31acfb63.chunk.css",
+    "main.js": "/recept/static/js/main.80706955.chunk.js",
+    "main.js.map": "/recept/static/js/main.80706955.chunk.js.map",
+    "runtime-main.js": "/recept/static/js/runtime-main.e4523076.js",
+    "runtime-main.js.map": "/recept/static/js/runtime-main.e4523076.js.map",
+    "static/js/2.66e98fb9.chunk.js": "/recept/static/js/2.66e98fb9.chunk.js",
+    "static/js/2.66e98fb9.chunk.js.map": "/recept/static/js/2.66e98fb9.chunk.js.map",
+    "static/js/3.816c4105.chunk.js": "/recept/static/js/3.816c4105.chunk.js",
+    "static/js/3.816c4105.chunk.js.map": "/recept/static/js/3.816c4105.chunk.js.map",
+    "index.html": "/recept/index.html",
+    "static/css/main.31acfb63.chunk.css.map": "/recept/static/css/main.31acfb63.chunk.css.map",
+    "static/js/2.66e98fb9.chunk.js.LICENSE.txt": "/recept/static/js/2.66e98fb9.chunk.js.LICENSE.txt",
+    "static/media/logotype.fc6a6f50.svg": "/recept/static/media/logotype.fc6a6f50.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e4523076.js",
+    "static/js/2.66e98fb9.chunk.js",
+    "static/css/main.31acfb63.chunk.css",
+    "static/js/main.80706955.chunk.js"
+  ]
+}
